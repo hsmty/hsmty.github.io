@@ -1,0 +1,4 @@
+baseURL = 'https://hsmty.org/'
+languageCode = 'en-us'
+title = 'Hackerspace Monterrey'
+theme=  'ananke'
