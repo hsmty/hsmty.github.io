@@ -41,7 +41,7 @@ jobs:
 
       - name: Git Submodules Update
         run: |
-          git pull --recursive-submodules
+          git pull --recurse-submodules
           git submodule update --remote --recursive
 
       - name: Commit update
