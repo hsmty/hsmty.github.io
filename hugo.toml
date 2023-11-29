@@ -2,3 +2,22 @@ baseURL = 'https://hsmty.org/'
 languageCode = 'en-us'
 title = 'Hackerspace Monterrey'
 theme=  'ananke'
+
+[outputs]
+    home = ['html', 'rss']
+
+[menu]
+[[menu.main]]
+    name = '¿Qué es?'
+    pageRef = '/que-es'
+    weight = 10
+
+[[menu.main]]
+    name = 'Ubicación'
+    pageRef = '/ubicacion'
+    weight = 20
+
+[[menu.main]]
+    name = 'Membresias'
+    pageRef = '/membresias'
+    weight = 30
