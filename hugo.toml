@@ -21,3 +21,9 @@ theme=  'ananke'
     name = 'Membresias'
     pageRef = '/membresias'
     weight = 30
+
+[[menu.main]]
+    name = 'RSS'
+    url = '/posts/index.xml'
+    identifier = "rss"
+    weight = 40
